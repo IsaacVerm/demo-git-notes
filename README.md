@@ -22,3 +22,9 @@ Back to original version before modifications in this case:
 git log --oneline
 git checkout 57085ec
 ```
+
+## Go back to last commit
+
+```
+git switch -
+```
