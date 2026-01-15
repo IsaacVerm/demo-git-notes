@@ -5,7 +5,7 @@ Show scalable way of keeping track of daily notes.
 ## Concatenate all notes
 
 ```
-cat daily-notes/* > summary-daily-notes.md
+cat daily-notes/*.md > daily-notes/daily-notes.md
 ```
 
 ## Keyword search
@@ -28,3 +28,7 @@ git checkout 57085ec
 ```
 git switch -
 ```
+
+## Daily notes as database approach
+
+Import CSV into [Datasette Lite](https://lite.datasette.io/).
