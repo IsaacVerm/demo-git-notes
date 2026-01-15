@@ -13,3 +13,12 @@ cat daily-notes/* > summary-daily-notes.md
 ```
 cat daily-notes/* | grep rain
 ```
+
+## Go back to older version
+
+Back to original version before modifications in this case:
+
+```
+git log --oneline
+git checkout 57085ec
+```
