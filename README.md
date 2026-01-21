@@ -49,6 +49,4 @@ git show -p 0bee7ec
 
 Import CSV into [Datasette Lite](https://lite.datasette.io/).
 
-Open `https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Fdemo-git-notes%2Frefs%2Fheads%2Fmain%2Fdaily-notes%2Fdaily-notes.csv%3Ftoken%{token}#/data?sql=select+*+from+%5Bdaily-notes%5D+where+weather+like+%22%25rain%25%22`
-
-`{token}` is displayed in URL when you open raw version of `daily-notes.csv`.
+Open `https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Fdemo-git-notes%2Frefs%2Fheads%2Fmain%2Fdaily-notes%2Fdaily-notes.csv#/data?sql=select+*+from+%5Bdaily-notes%5D`
