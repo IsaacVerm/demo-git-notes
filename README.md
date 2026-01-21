@@ -29,6 +29,22 @@ git checkout 57085ec
 git switch -
 ```
 
+## Show changes in specific commit
+
+First check the has of previous commits:
+
+```
+git log --oneline
+```
+
+Copy the hash you need and run this command (example is previous commit right now):
+
+```
+git show -p 0bee7ec
+```
+
+`-p` stands for patch (just the changes).
+
 ## Daily notes as database approach
 
 Import CSV into [Datasette Lite](https://lite.datasette.io/).
